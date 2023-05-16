@@ -1090,7 +1090,7 @@ footer h3 {
   .seo-section {
     height: auto;
 
-    padding: 40px 5%;
+    padding: 40px 0%;
   }
 }
 @media only screen and (max-width: 997px) {
