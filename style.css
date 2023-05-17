@@ -1034,7 +1034,7 @@ hr {
 }
 .right {
   display: flex;
-  gap: 50px;
+  gap: 10px;
 }
 .right > .line {
   height: 100%;
@@ -1044,9 +1044,10 @@ hr {
 }
 .right .information {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px, auto));
-  align-items: center;
-  gap: 10px;
+    grid-template-columns: repeat(2 ,1fr);
+
+
+  gap: 20px;
 }
 .right .information .info > h3 {
   color: #6e6e6e;
