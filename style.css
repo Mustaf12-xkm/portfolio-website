@@ -471,21 +471,16 @@ hr {
   height: 100%;
   width: 90%;
   background: rgb(131, 58, 180);
-  background: linear-gradient(
-    90deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(253, 190, 29, 1) 100%,
-    rgba(252, 176, 69, 1) 100%
-  );
+  background: linear-gradient(    90deg,    rgba(131, 58, 180, 1) 0%,    rgba(253, 190, 29, 1) 100%,    rgba(252, 176, 69, 1) 100%  );
   border-radius: 6px;
   animation: progress 0.4s ease-in-out forwards;
-  -webkit-animation: progress 0s ease-in-out forwards;
+  -webkit-animation: progress 0.4s ease-in-out forwards;
   opacity: 0;
 }
 @keyframes progress {
   0% {
     width: 0;
-    opacity: 1;
+    opacity: 0;
   }
   100% {
     opacity: 1;
